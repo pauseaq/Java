@@ -14,6 +14,13 @@ public class Student {
 		age = 24;
 	}
 	
+	// 생성자 오버로딩
+	public Student(String name, int num, int age) {
+		this.name = name;
+		this.num = num;
+		this.age = age;
+	}
+	
 	// 메소드
 	public void showAll() {
 		System.out.printf("이름 : %s, 학번 : %d, 나이 : %d\n", name, num, age);
