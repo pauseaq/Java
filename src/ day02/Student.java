@@ -42,10 +42,13 @@ public class Student {
 		student1.showAll();
 		// 이름 : 정명환, 학번 : 20201513, 나이 : 24
 		
-		Student student2 = new Student();
+		Student student2 = new Student("이길동", 20111111, 22);
 		student2.showAll();
-		// 이름 : 정명환, 학번 : 20201513, 나이 : 24
-		// 출력값이 객체 student1과 student2가 같다.
+		// 이름 : 이길동, 학번 : 20111111, 나이 : 22 
+		// Student student2 = new Student();로 하게 되면
+		// 객체 student1과 객체 student2의 출력값이 동일하다
+		// 그래서 생성자 오버로딩을 통해 매개변수가 다른 생성자를 선언한다.
+		
 		
 
 	}
